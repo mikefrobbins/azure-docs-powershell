@@ -3,8 +3,8 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 ms.assetid: 50B64FFE-8277-4DAA-805A-271123B35355
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Stack/Commands.Compute/help/Add-AzureRmVMAdditionalUnattendContent.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Stack/Commands.Compute/help/Add-AzureRmVMAdditionalUnattendContent.md
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Commands.Compute/help/Add-AzureRmVMAdditionalUnattendContent.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Commands.Compute/help/Add-AzureRmVMAdditionalUnattendContent.md
 ---
 
 # Add-AzureRmVMAdditionalUnattendContent
@@ -30,7 +30,7 @@ Specify additional base 64 encoded .xml formatted information that this cmdlet a
 ### Example 1: Add content to unattend.xml
 ```
 PS C:\> $AvailabilitySet = Get-AzureRmAvailabilitySet -ResourceGroupName "ResourceGroup11" -Name "AvailabilitySet03"
-PS C:\> $VirtualMachine = New-AzureRmVMConfig -VMName "VirtualMachine07" -VMSize "Standard_A1" -AvailabilitySetID $AvailabilitySet.Id 
+PS C:\> $VirtualMachine = New-AzureRmVMConfig -VMName "VirtualMachine07" -VMSize "Standard_A1" -AvailabilitySetID $AvailabilitySet.Id
 PS C:\> $Credential = Get-Credential
 PS C:\> $VirtualMachine = Set-AzureRmVMOperatingSystem -VM $VirtualMachine  -Windows -ComputerName "Contoso26" -Credential $Credential
 PS C:\> $AucContent = "<UserAccounts><AdministratorPassword><Value>" + "Password" + "</Value><PlainText>true</PlainText></AdministratorPassword></UserAccounts>";
@@ -64,7 +64,7 @@ The XML content must be less than 4 KB and must include the root element for the
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -83,7 +83,7 @@ The acceptable values for this parameter are:
 ```yaml
 Type: SettingNames
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: AutoLogon, FirstLogonCommands
 
 Required: False
@@ -96,7 +96,6 @@ Accept wildcard characters: False
 ### -VM
 Specifies the virtual machine object that this cmdlet modifies.
 To obtain a virtual machine object, use the [Get-AzureRmVM](./Get-AzureRmVM.md) cmdlet.
-Create a virtual machine object by using the [New-AzureRmVMConfig](./New-AzureRmVMConfig.md) cmdlet.
 
 ```yaml
 Type: PSVirtualMachine
@@ -126,6 +125,3 @@ This cmdlet does not accept any input.
 
 [Get-AzureRmAvailabilitySet](./Get-AzureRmAvailabilitySet.md)
 
-[Set-AzureRmVMOperatingSystem](./Set-AzureRmVMOperatingSystem.md)
-
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)

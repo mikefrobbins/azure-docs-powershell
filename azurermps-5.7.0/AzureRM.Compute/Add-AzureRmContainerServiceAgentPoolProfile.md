@@ -42,7 +42,7 @@ To obtain a **ContainerService** object, use the [New-AzureRmContainerServiceCon
 ```yaml
 Type: ContainerService
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -59,7 +59,7 @@ The default value is 1.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -74,7 +74,7 @@ Specifies the DNS prefix that this cmdlet uses to create the fully qualified dom
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -90,7 +90,7 @@ This value must be unique in the context of the subscription and resource group.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -105,7 +105,7 @@ Specifies the size of the virtual machines for the agents.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -159,5 +159,3 @@ This cmdlet does not accept any input.
 ## RELATED LINKS
 
 [New-AzureRmContainerServiceConfig](./New-AzureRmContainerServiceConfig.md)
-
-[Remove-AzureRmContainerServiceAgentPoolProfile](./Remove-AzureRmContainerServiceAgentPoolProfile.md)

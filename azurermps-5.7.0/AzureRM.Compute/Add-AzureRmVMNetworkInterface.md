@@ -36,7 +36,7 @@ You can add an interface when you create a virtual machine or add one to an exis
 
 ### Example 1: Add a network interface to a new virtual machine
 ```
-PS C:\> $VirtualMachine = New-AzureRmVMConfig -VMName "VirtualMachine07" -VMSize "Standard_A1" 
+PS C:\> $VirtualMachine = New-AzureRmVMConfig -VMName "VirtualMachine07" -VMSize "Standard_A1"
 PS C:\> Add-AzureRmVMNetworkInterface -VM $VirtualMachine -Id "/subscriptions/46fc8ea4-2de6-4179-8ab1-365da4121af4/resourceGroups/contoso/providers/Microsoft.Network/networkInterfaces/sshNIC"
 ```
 
@@ -83,7 +83,7 @@ Specifies the network interface.
 ```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSNetworkInterface]
 Parameter Sets: GetNicFromNicObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -98,7 +98,7 @@ Indicates that this cmdlet adds the network interface as the primary interface.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: GetNicFromNicId
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -137,8 +137,6 @@ This cmdlet does not accept any input.
 ## NOTES
 
 ## RELATED LINKS
-
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
 
 [Get-AzureRmVM](./Get-AzureRmVM.md)
 

@@ -43,7 +43,7 @@ Indicates whether the extension version should be automatically updated to a new
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -58,7 +58,7 @@ Specifies the name of the extension that this cmdlet adds.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -74,7 +74,7 @@ This cmdlet encrypts the private configuration.
 ```yaml
 Type: Object
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 7
@@ -86,12 +86,11 @@ Accept wildcard characters: False
 ### -Publisher
 Specifies the name of the extension publisher.
 The publisher provides a name when the publisher registers an extension.
-This can use the [Get-AzureRmVMImagePublisher](./Get-AzureRmVMImagePublisher.md) cmdlet to get the publisher.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -107,7 +106,7 @@ This cmdlet does not encrypt public configuration.
 ```yaml
 Type: Object
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 6
@@ -123,7 +122,7 @@ You can use the [Get-AzureRmVMExtensionImageType](./Get-AzureRmVMExtensionImageT
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -134,12 +133,11 @@ Accept wildcard characters: False
 
 ### -TypeHandlerVersion
 Specifies the version of the extension to use for this virtual machine.
-You can use the [Get-AzureRmVMExtensionImage](./Get-AzureRmVMExtensionImage.md) cmdlet to get the version of the extension.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -150,12 +148,11 @@ Accept wildcard characters: False
 
 ### -VirtualMachineScaleSet
 Specify the VMSS object.
-You can use the [New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md) to create the object.
 
 ```yaml
 Type: VirtualMachineScaleSet
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -204,19 +201,11 @@ This cmdlet does not accept any input.
 
 ## OUTPUTS
 
-###  
+###
 This cmdlet does not generate any output.
 
 ## NOTES
 
 ## RELATED LINKS
 
-[Remove-AzureRmVmssExtension](./Remove-AzureRmVmssExtension.md)
-
-[Get-AzureRmVMImagePublisher](./Get-AzureRmVMImagePublisher.md)
-
 [Get-AzureRmVMExtensionImageType](./Get-AzureRmVMExtensionImageType.md)
-
-[Get-AzureRmVMExtensionImage](./Get-AzureRmVMExtensionImage.md)
-
-[New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md)

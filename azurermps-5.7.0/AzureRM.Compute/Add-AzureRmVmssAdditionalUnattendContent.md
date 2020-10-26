@@ -3,8 +3,8 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 ms.assetid: 9BE2E42C-594B-4B67-866C-BBA3B84AA5FD
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Stack/Commands.Compute/help/Add-AzureRmVmssAdditionalUnattendContent.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Stack/Commands.Compute/help/Add-AzureRmVmssAdditionalUnattendContent.md
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Commands.Compute/help/Add-AzureRmVmssAdditionalUnattendContent.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Commands.Compute/help/Add-AzureRmVmssAdditionalUnattendContent.md
 ---
 
 # Add-AzureRmVmssAdditionalUnattendContent
@@ -43,7 +43,7 @@ The only allowable value is Microsoft-Windows-Shell-Setup.
 ```yaml
 Type: ComponentNames
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: MicrosoftWindowsShellSetup
 
 Required: False
@@ -59,7 +59,7 @@ Specifies the XML formatted content that is added to the unattend.xml file for t
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -75,7 +75,7 @@ The only allowable value is oobeSystem.
 ```yaml
 Type: PassNames
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: OobeSystem
 
 Required: False
@@ -95,7 +95,7 @@ The acceptable values for this parameter are::
 ```yaml
 Type: SettingNames
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: AutoLogon, FirstLogonCommands
 
 Required: False
@@ -107,12 +107,11 @@ Accept wildcard characters: False
 
 ### -VirtualMachineScaleSet
 Specify the virtual machine **Scale Set** object.
-You can use the [New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md) cmdlet to create the object.
 
 ```yaml
 Type: VirtualMachineScaleSet
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -165,4 +164,3 @@ This cmdlet does not accept any input.
 
 ## RELATED LINKS
 
-[New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md)

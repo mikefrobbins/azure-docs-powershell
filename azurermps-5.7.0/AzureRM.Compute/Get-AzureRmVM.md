@@ -191,16 +191,4 @@ This cmdlet does not accept any input.
 
 ## RELATED LINKS
 
-[New-AzureRmVM](./New-AzureRmVM.md)
-
-[Remove-AzureRmVM](./Remove-AzureRmVM.md)
-
-[Restart-AzureRmVM](./Restart-AzureRmVM.md)
-
-[Start-AzureRmVM](./Start-AzureRmVM.md)
-
-[Stop-AzureRmVM](./Stop-AzureRmVM.md)
-
-[Update-AzureRmVM](./Update-AzureRmVM.md)
-
 

@@ -63,7 +63,7 @@ Specifies the name of a resource group.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -85,9 +85,5 @@ This cmdlet does not accept any input.
 ## NOTES
 
 ## RELATED LINKS
-
-[New-AzureRmAvailabilitySet](./New-AzureRmAvailabilitySet.md)
-
-[Remove-AzureRmAvailabilitySet](./Remove-AzureRmAvailabilitySet.md)
 
 

@@ -69,7 +69,7 @@ Specifies the instance ID for which to get the model view.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -84,7 +84,7 @@ Indicates that this cmdlet gets only the instance view of the virtual machine.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: FriendMethod
-Aliases: 
+Aliases:
 
 Required: True
 Position: 4
@@ -99,7 +99,7 @@ Specifies the name of the Resource Group of the VMSS.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -138,8 +138,6 @@ This cmdlet does not accept any input.
 ## NOTES
 
 ## RELATED LINKS
-
-[Set-AzureRmVmssVM](./Set-AzureRmVmssVM.md)
 
 [Get-AzureRmVmss](./Get-AzureRmVmss.md)
 

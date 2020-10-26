@@ -43,7 +43,7 @@ Specify this parameter only if you changed the default name in the **Set-AzureRm
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -58,7 +58,7 @@ Specifies the name of the resource group of the virtual machine.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -73,7 +73,7 @@ Indicates that this cmdlet gets the instance view of the DSC extension.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -88,7 +88,7 @@ Specifies the name of a virtual machine for which this cmdlet gets the DSC exten
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -112,9 +112,5 @@ This cmdlet does not accept any input.
 ## NOTES
 
 ## RELATED LINKS
-
-[Remove-AzureRmVMDscExtension](./Remove-AzureRmVMDscExtension.md)
-
-[Set-AzureRmVMDscExtension](./Set-AzureRmVMDscExtension.md)
 
 

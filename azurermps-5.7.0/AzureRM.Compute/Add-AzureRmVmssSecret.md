@@ -3,8 +3,8 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 ms.assetid: 656BE930-E778-40B0-8A75-BFE52DE386CE
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Stack/Commands.Compute/help/Add-AzureRmVmssSecret.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Stack/Commands.Compute/help/Add-AzureRmVmssSecret.md
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Commands.Compute/help/Add-AzureRmVmssSecret.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Commands.Compute/help/Add-AzureRmVmssSecret.md
 ---
 
 # Add-AzureRmVmssSecret
@@ -53,7 +53,7 @@ This means that you can use the same value for the *SourceVaultId* parameter whe
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -69,7 +69,7 @@ You can use the [New-AzureRmVmssVaultCertificateConfig](./New-AzureRmVmssVaultCe
 ```yaml
 Type: VaultCertificate[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -85,7 +85,7 @@ You can use the [New-AzureRmVmssConfig](./New-AzureRmVmssConfig.md) cmdlet to cr
 ```yaml
 Type: VirtualMachineScaleSet
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -134,7 +134,7 @@ This cmdlet does not accept any input.
 
 ## OUTPUTS
 
-###  
+###
 This cmdlet does not generate any output.
 
 ## NOTES

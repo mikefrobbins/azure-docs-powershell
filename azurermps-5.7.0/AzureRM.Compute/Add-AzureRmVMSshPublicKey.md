@@ -46,7 +46,7 @@ You can connect to a virtual machine by using SSH or by using the key that this 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -62,7 +62,7 @@ If the file already exists, this cmdlet appends the key to the file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -74,7 +74,6 @@ Accept wildcard characters: False
 ### -VM
 Specifies the virtual machine object that this cmdlet modifies.
 To obtain a virtual machine object, use the [Get-AzureRmVM](./Get-AzureRmVM.md) cmdlet.
-You can use the [New-AzureRmVMConfig](./New-AzureRmVMConfig.md) cmdlet to create a virtual machine object.
 
 ```yaml
 Type: PSVirtualMachine
@@ -104,4 +103,3 @@ This cmdlet does not accept any input.
 
 [Get-AzureRmVM](./Get-AzureRmVM.md)
 
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)

@@ -72,7 +72,7 @@ You can only specify this parameter for virtual machines that run the Windows op
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -98,7 +98,7 @@ Currently, dataType accepts only .pfx files.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -127,7 +127,6 @@ Accept wildcard characters: False
 ### -VM
 Specifies the virtual machine object that this cmdlet modifies.
 To obtain a virtual machine object, use the [Get-AzureRmVM](./Get-AzureRmVM.md) cmdlet.
-You can use the [New-AzureRmVMConfig](./New-AzureRmVMConfig.md) cmdlet to create a virtual machine object.
 
 ```yaml
 Type: PSVirtualMachine
@@ -157,6 +156,3 @@ This cmdlet does not accept any input.
 
 [Get-AzureRmVM](./Get-AzureRmVM.md)
 
-[New-AzureRmVMConfig](./New-AzureRmVMConfig.md)
-
-[Set-AzureRmVMOperatingSystem](./Set-AzureRmVMOperatingSystem.md)
