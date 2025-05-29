@@ -5,6 +5,7 @@ online version: https://learn.microsoft.com/powershell/module/az.accounts/connec
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/main/src/Accounts/Accounts/help/Connect-AzAccount.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/main/src/Accounts/Accounts/help/Connect-AzAccount.md
+title: Connect-AzAccount
 ---
 
 # Connect-AzAccount

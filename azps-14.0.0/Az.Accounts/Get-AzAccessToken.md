@@ -5,6 +5,7 @@ online version: https://learn.microsoft.com/powershell/module/az.accounts/get-az
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/main/src/Accounts/Accounts/help/Get-AzAccessToken.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/main/src/Accounts/Accounts/help/Get-AzAccessToken.md
+title: Get-AzAccessToken
 ---
 
 # Get-AzAccessToken
